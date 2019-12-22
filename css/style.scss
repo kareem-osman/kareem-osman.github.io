@@ -1,0 +1,246 @@
+$main-col:#f0530e;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+a{text-decoration: none;}
+
+.row{display: flex;flex-wrap: wrap;justify-content: space-between;}
+:root{
+    --main-color1:red;
+}
+.orange{color: orangered;}
+/* -------main------------------------------- */
+/* ------ -navbar------------------------------- */
+#nav
+{
+    .navbar
+    {
+        background-color: rgba(211, 58, 2, 0.87);
+        #nav-title
+        {
+            color: #fff;
+            font-weight: bold;
+        }
+        .nav-link
+        {
+            color: #fff;
+        }
+
+    }
+}
+/* ------ //-navbar------------------------------- */
+/* -------header------------------------------- */
+#header
+{
+background-image: url("../img/header.jpg");
+height: 100vh;
+background-position: center center;
+    .overlay
+    {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+    #contact
+    {
+        position: fixed;
+        color: #fff;
+        background-color:rgb(122, 36, 4);
+        width: 300px;
+        top: 289px;
+        left: -300px;
+        z-index: 10;
+        transition: 1s;
+        span
+        { 
+            font-size: 1.2rem;
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: -4px;
+            right: 4px;
+            cursor: pointer;
+            // .to-left-contact
+            // {
+            //     left: -300px;
+            // }
+            // .to-right-contact
+            // {
+            //     left: 0;
+            // }
+        }
+        .nav-link
+        {
+            color: #fff;
+        }
+        h5
+        {
+            padding: 10px;
+        }
+        .bt-v
+        {
+            background-image: url("../img/varticl-buttom-contact.png");
+            width: 30px;
+            height: 200px;
+            position: absolute;
+            bottom: 0;
+            right: -30px;
+            background-size: cover;
+            cursor: pointer;
+        }
+    }
+        .data
+        {
+            h2
+            {
+                color: #fff;
+                margin-top: 100px ;
+                text-shadow: 2px 2px 2px black;
+                &::before
+                {
+                    content:"Engineer: ";
+                    color: orangered;
+
+                }
+            }
+            h5
+            {
+                color:rgb(190, 188, 188);
+                margin: 20px 0 10px 0;
+            }
+           
+        }
+        .box-img
+        {
+            img
+            {
+                width: 350px;
+                // background-color: transparent;
+                box-shadow: 2px 2px 2px black ,-2px -2px 2px black;;
+            }
+        }
+        #main_title
+        {
+             margin: 40px auto;
+            h1
+            {
+                color: orangered;
+               
+                text-shadow: 2px 2px 2px black;
+                &::after
+                {
+                content: "CV";
+                font-size: 1.5rem;
+                padding: 3px;
+                color: #fff;
+                font-weight: bold;
+                border: #fff 1px solid;
+                border-radius: 50%;
+                }
+            }
+        }
+    }
+    .empty{height: 60px;}
+}
+/* ---//----header------------------------------- */
+#skills
+{
+    
+    padding: 20px 0;
+    .box-img
+    {
+        img
+        {
+            width: 100%;
+            
+        }
+    }
+}
+
+#education
+{
+    background-color: rgba(211, 242, 243, 0.466);
+    padding: 20px 0;
+    #cont
+    {
+       align-items: center;
+        h2
+        {
+                   
+            border: 1px orangered solid;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            padding: 15px;
+            // box-shadow: 1px 1px 2px black;
+        }
+    }
+}
+
+#experience
+{
+    background-color: rgba(211, 242, 243, 0.466);
+    padding: 20px 0;
+}
+#footer
+{
+    background-color: $main-col;
+    padding: 5px 0;
+    h3
+    {
+        margin: 10px 20px; 
+    }
+    
+}
+
+#to_up{ display: none;
+    a{
+      box-shadow: black 1px 1px 5px;
+      background-color: $main-col;
+      width: 50px;
+      height: 50px;
+      position: fixed;
+      bottom: 95px;
+      right: 20px;
+      font-size: 2rem;
+      text-align: center;
+      padding: 3px 0;
+      z-index: 999;
+  }}
+// -----------------------social media fix---------
+#social_m
+{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    width: 160px;
+    border: $main-col 1px solid;
+    border-top: $main-col 20px solid;
+    border-radius: 12px;
+    box-shadow: black 2px 2px 5px;
+    background-color: #fff;
+    opacity: .2;
+    .social
+    {
+        font-size: 2.5rem;
+        color: #fff;
+        // text-align: center;
+        a
+        {
+            margin: 0 10px;
+            &:first-child{color:  #3b5998}
+            &:nth-child(2){color: #0e76a8}
+            &:nth-child(3){color: black}
+        }
+    }
+    h4
+    {
+        color: $main-col;
+    }
+}
+
+  

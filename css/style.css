@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+:root {
+  --main-color1:red;
+}
+
+.orange {
+  color: orangered;
+}
+
+/* -------main------------------------------- */
+/* ------ -navbar------------------------------- */
+#nav .navbar {
+  background-color: rgba(211, 58, 2, 0.87);
+}
+
+#nav .navbar #nav-title {
+  color: #fff;
+  font-weight: bold;
+}
+
+#nav .navbar .nav-link {
+  color: #fff;
+}
+
+/* ------ //-navbar------------------------------- */
+/* -------header------------------------------- */
+#header {
+  background-image: url("../img/header.jpg");
+  height: 100vh;
+  background-position: center center;
+}
+
+#header .overlay {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.678);
+}
+
+#header .overlay #contact {
+  position: fixed;
+  color: #fff;
+  background-color: #7a2404;
+  width: 300px;
+  top: 289px;
+  left: -300px;
+  z-index: 10;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#header .overlay #contact span {
+  font-size: 1.2rem;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -4px;
+  right: 4px;
+  cursor: pointer;
+}
+
+#header .overlay #contact .nav-link {
+  color: #fff;
+}
+
+#header .overlay #contact h5 {
+  padding: 10px;
+}
+
+#header .overlay #contact .bt-v {
+  background-image: url("../img/varticl-buttom-contact.png");
+  width: 30px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  right: -30px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#header .overlay .data h2 {
+  color: #fff;
+  margin-top: 100px;
+  text-shadow: 2px 2px 2px black;
+}
+
+#header .overlay .data h2::before {
+  content: "Engineer: ";
+  color: orangered;
+}
+
+#header .overlay .data h5 {
+  color: #bebcbc;
+  margin: 20px 0 10px 0;
+}
+
+#header .overlay .box-img img {
+  width: 350px;
+  -webkit-box-shadow: 2px 2px 2px black ,-2px -2px 2px black;
+          box-shadow: 2px 2px 2px black ,-2px -2px 2px black;
+}
+
+#header .overlay #main_title {
+  margin: 40px auto;
+}
+
+#header .overlay #main_title h1 {
+  color: orangered;
+  text-shadow: 2px 2px 2px black;
+}
+
+#header .overlay #main_title h1::after {
+  content: "CV";
+  font-size: 1.5rem;
+  padding: 3px;
+  color: #fff;
+  font-weight: bold;
+  border: #fff 1px solid;
+  border-radius: 50%;
+}
+
+#header .empty {
+  height: 60px;
+}
+
+/* ---//----header------------------------------- */
+#skills {
+  padding: 20px 0;
+}
+
+#skills .box-img img {
+  width: 100%;
+}
+
+#education {
+  background-color: rgba(211, 242, 243, 0.466);
+  padding: 20px 0;
+}
+
+#education #cont {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#education #cont h2 {
+  border: 1px orangered solid;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 15px;
+}
+
+#experience {
+  background-color: rgba(211, 242, 243, 0.466);
+  padding: 20px 0;
+}
+
+#footer {
+  background-color: #f0530e;
+  padding: 5px 0;
+}
+
+#footer h3 {
+  margin: 10px 20px;
+}
+
+#to_up {
+  display: none;
+}
+
+#to_up a {
+  -webkit-box-shadow: black 1px 1px 5px;
+          box-shadow: black 1px 1px 5px;
+  background-color: #f0530e;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 95px;
+  right: 20px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 3px 0;
+  z-index: 999;
+}
+
+#social_m {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  width: 160px;
+  border: #f0530e 1px solid;
+  border-top: #f0530e 20px solid;
+  border-radius: 12px;
+  -webkit-box-shadow: black 2px 2px 5px;
+          box-shadow: black 2px 2px 5px;
+  background-color: #fff;
+  opacity: .2;
+}
+
+#social_m .social {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+#social_m .social a {
+  margin: 0 10px;
+}
+
+#social_m .social a:first-child {
+  color: #3b5998;
+}
+
+#social_m .social a:nth-child(2) {
+  color: #0e76a8;
+}
+
+#social_m .social a:nth-child(3) {
+  color: black;
+}
+
+#social_m h4 {
+  color: #f0530e;
+}
+/*# sourceMappingURL=style.css.map */
