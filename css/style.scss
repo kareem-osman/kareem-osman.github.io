@@ -185,6 +185,16 @@ background-position: center center;
 {
     background-color: rgba(211, 242, 243, 0.466);
     padding: 20px 0;
+    .resume-list
+    {
+        margin-left: 100px;
+        padding-left: 15px;
+        // border-left:$main-col 2px solid;
+        li
+        {
+            list-style-image: url("../img/icons-list.png");
+        }
+    }
 }
 #footer
 {
@@ -216,7 +226,7 @@ background-position: center center;
 {
     position: fixed;
     top: 100px;
-    left: 100px;
+    right: 100px;
     width: 160px;
     border: $main-col 1px solid;
     border-top: $main-col 20px solid;
@@ -243,4 +253,22 @@ background-position: center center;
     }
 }
 
-  
+#scn_title
+{
+     margin: 40px auto;
+    h1
+    {
+               
+        text-shadow: 2px 2px 2px $main-col;
+        // &::after
+        // {
+        // content: "CV";
+        // font-size: 1.5rem;
+        // padding: 3px;
+        // color: #fff;
+        // font-weight: bold;
+        // border: $main-col 1px solid;
+        // border-radius: 50%;
+        // }
+    }
+}

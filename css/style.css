@@ -180,6 +180,15 @@ a {
   padding: 20px 0;
 }
 
+#experience .resume-list {
+  margin-left: 100px;
+  padding-left: 15px;
+}
+
+#experience .resume-list li {
+  list-style-image: url("../img/icons-list.png");
+}
+
 #footer {
   background-color: #f0530e;
   padding: 5px 0;
@@ -211,7 +220,7 @@ a {
 #social_m {
   position: fixed;
   top: 100px;
-  left: 100px;
+  right: 100px;
   width: 160px;
   border: #f0530e 1px solid;
   border-top: #f0530e 20px solid;
@@ -245,5 +254,13 @@ a {
 
 #social_m h4 {
   color: #f0530e;
+}
+
+#scn_title {
+  margin: 40px auto;
+}
+
+#scn_title h1 {
+  text-shadow: 2px 2px 2px #f0530e;
 }
 /*# sourceMappingURL=style.css.map */
