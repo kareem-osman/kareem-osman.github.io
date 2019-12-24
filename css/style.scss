@@ -148,6 +148,16 @@ background-position: center center;
     .empty{height: 60px;}
 }
 /* ---//----header------------------------------- */
+/* -------courses------------------------------- */
+#courses
+{
+    .card
+    {
+        margin: 10px 0;
+    }
+}
+/* ---/////----courses------------------------------- */
+/* -------skills------------------------------- */
 #skills
 {
     
@@ -271,4 +281,32 @@ background-position: center center;
         // border-radius: 50%;
         // }
     }
+}
+
+#website
+{
+    .card
+    {
+        margin: 10px 0;
+    }
+    #scn2_title
+{
+     margin: 40px auto;
+    h1
+    {
+               
+        text-shadow: 2px 2px 2px $main-col;
+        &::after
+        {
+        content: "My Work";
+        font-size: 1.6rem;
+        padding: 3px;
+        color: $main-col;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000;
+        // border: $main-col 1px solid;
+        // border-radius: 50%;
+        }
+    }
+}
 }

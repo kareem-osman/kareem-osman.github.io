@@ -149,6 +149,13 @@ a {
 }
 
 /* ---//----header------------------------------- */
+/* -------courses------------------------------- */
+#courses .card {
+  margin: 10px 0;
+}
+
+/* ---/////----courses------------------------------- */
+/* -------skills------------------------------- */
 #skills {
   padding: 20px 0;
 }
@@ -262,5 +269,26 @@ a {
 
 #scn_title h1 {
   text-shadow: 2px 2px 2px #f0530e;
+}
+
+#website .card {
+  margin: 10px 0;
+}
+
+#website #scn2_title {
+  margin: 40px auto;
+}
+
+#website #scn2_title h1 {
+  text-shadow: 2px 2px 2px #f0530e;
+}
+
+#website #scn2_title h1::after {
+  content: "My Work";
+  font-size: 1.6rem;
+  padding: 3px;
+  color: #f0530e;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000;
 }
 /*# sourceMappingURL=style.css.map */
