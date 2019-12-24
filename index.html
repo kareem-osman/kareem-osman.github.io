@@ -17,10 +17,15 @@
 <section id="part1">
   <div id="nav">
           <!-- ----------------------start navbar------------- -->
-            <nav class="navbar fixed-top shadow navbar-light ">
+            <nav class="navbar fixed-top navbar-expand-lg shadow navbar-light ">
               <div class="container">
-                    <a id="nav-title" class="navbar-brand hvr-wobble-vertical" href="#"><i class="fas fa-user-circle"></i> My Portfolio</a>
-                    <ul class="nav justify-content-end">
+                    <a id="nav-title" class="navbar-brand col-3 col-md-6 hvr-wobble-vertical" href="#"><i class="fas fa-user-circle"></i> My Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav justify-content-end navbar-nav mr-auto">
                         <li class="nav-item">
                           <a class="nav-link hvr-underline-from-center " href="#header">About</a>
                         </li>
@@ -43,6 +48,7 @@
                        
                     </ul>
                   </div>
+                </div>
                 </nav>
             </div>
     <!-- ----------------------finish navbar------------- -->
@@ -82,10 +88,10 @@
         </div>
         <div class="container">
           <div class="row justify-content-center mt-md-5">
-            <div class="box-img col-md-4">
+            <div class="box-img col-4 col-lg-4">
               <img class="img-thumbnail " src="img/profile.png" alt="">
             </div>
-            <div class="data  col-md-7">
+            <div class="data col-12 col-md-7">
               <h2>Kareem Mohamed Ahmed</h2>
               <h5>Civil Engineering <i class="fas fa-city hvr-grow-shadow orange hvr-buzz-out"></i> in General Petrolum Company</h5>
               <h5>Date of Birth <i class="fas fa-birthday-cake orange hvr-buzz-out"></i> July 1982</h5>
@@ -107,13 +113,13 @@
     <div id="scn_title" class="text-center col-md-6">
       <h1 class="hvr-float-shadow">Courses</h1>
     </div>
-    <div class="row justify-content-center">
-      <a href="#" class="btn btn-secondary m-md-3 btn-lg hvr-rectangle-out" role="button" aria-pressed="true">All Courses</a>    
-      <a href="#" class="btn btn-secondary m-md-3 btn-lg hvr-rectangle-out" role="button" aria-pressed="true">Civil Engineering</a>
-      <a href="#" class="btn btn-secondary m-md-3 btn-lg hvr-rectangle-out" role="button" aria-pressed="true">Web Development</a>    
+    <div id="nav" class="row justify-content-center">
+      <a href="##" cat="all" class="btn btn-secondary m-1 m-md-3 btn-md hvr-rectangle-out" role="button" aria-pressed="true">All Courses</a>    
+      <a href="##" cat="pmp" class="btn btn-secondary m-1 m-md-3 btn-md hvr-rectangle-out" role="button" aria-pressed="true">Civil Engineering</a>
+      <a href="##" cat="web" class="btn btn-secondary m-1 m-md-3 btn-md hvr-rectangle-out" role="button" aria-pressed="true">Web Development</a>    
     </div>
-    <div class="row mb-5">
-      <div class="card hvr-grow-shadow" style="width: 18rem;">
+    <div class="row mb-5 justify-content-center justify-content-md-between">
+      <div class="card hvr-grow-shadow col-10 col-md-3" cat="web" >
         <img src="img/Full Stack.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Full Stack Developer</h5>
@@ -124,7 +130,7 @@
         </div>
       </div>
       <!-- ---------------********************---------------- -->
-      <div class="card hvr-grow-shadow" style="width: 18rem;">
+      <div class="card hvr-grow-shadow col-10 col-md-3" cat="pmp" >
         <img src="img/p6.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Primavera 6.0</h5>
@@ -135,7 +141,7 @@
         </div>
       </div>
       <!-- ---------------********************---------------- -->
-      <div class="card hvr-grow-shadow" style="width: 18rem;">
+      <div class="card hvr-grow-shadow col-10 col-md-3" cat="pmp">
         <img src="img/feasibility-study.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">The Feasibility Study</h5>
@@ -146,7 +152,7 @@
         </div>
       </div>
       <!-- ---------------********************---------------- -->
-      <div class="card hvr-grow-shadow" style="width: 18rem;">
+      <div class="card hvr-grow-shadow col-10 col-md-3" cat="pmp" >
         <img src="img/OSHA-logo.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">OSHA</h5>
@@ -157,7 +163,7 @@
         </div>
       </div>
       <!-- ---------------********************---------------- -->
-      <div class="card hvr-grow-shadow" style="width: 18rem;">
+      <div class="card hvr-grow-shadow col-10 col-md-3" cat="pmp" >
         <img src="img/technical-report-writing.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Technical Report Writing</h5>
@@ -168,7 +174,7 @@
         </div>
       </div>
       <!-- --------------***************--------------------------- -->
-      <div class="card hvr-grow-shadow" style="width: 18rem;">
+      <div class="card hvr-grow-shadow col-10 col-md-3" cat="pmp" >
         <img src="img/pmp.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pmp preparation</h5>
@@ -217,11 +223,11 @@
       <div id="scn_title" class="text-center col-md-6">
         <h1 class="hvr-float-shadow">Education</h1>
       </div>
-      <div class="row justify-content-center">
-        <div class="box-img col-md-2">
-          <img class="col-md-12" src="img/education.png" alt="">
+      <div class="d-flex flex-md-row flex-column justify-content-md-center">
+        <div class="box-img col-6 col-md-2 mx-auto">
+          <img class="col-12" src="img/education.png" alt="">
         </div>
-        <div class="btn-toolbar mb-3 col-md-3 justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-toolbar my-3 col-12 col-md-3 justify-content-center" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group-vertical mr-2 shadow" role="group" aria-label="First group">
             <button type="button" class="btn btn-secondary"> Graduated From </button>
             <button type="button" class="btn btn-secondary">Grade</button>
@@ -229,7 +235,7 @@
             <button type="button" class="btn btn-secondary">Project Grade</button>
           </div>
         </div>
-        <div id="cont" class="row col-md-7 text-left">
+        <div id="cont" class="row col-12 col-md-7 text-left">
           <h2 class="shadow">Bachelor of Civil Engineering-june 2004</h2>
         </div>
       </div>
@@ -246,10 +252,10 @@
 
   <div class="container">
     <div class="row justify-content-center">
-      <div class="box-img col-md-2">
-        <img class="col-md-12" src="img/skills.png" alt="">
+      <div class="box-img col-6 col-md-2">
+        <img class="col-12" src="img/skills.png" alt="">
       </div>
-      <div class="col-md-10 ">
+      <div class="col-10 col-md-10 ">
         <div class="item row justify-content-end">
           <h5 class="sk">AutoCad</h5>
           <div class="progress col-md-8 my-1">
@@ -337,10 +343,10 @@
     <h1 class="hvr-float-shadow">Website Design </h1>
   </div>
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center justify-content-md-between">
 <!-- ------------- -->
-<div class="card hvr-reveal" style="width: 18rem;">
-  <img src="img/01.PNG" class="card-img-top" alt="...">
+<div class="card hvr-reveal p-1 col-10 col-md-3">
+  <img src="img/01.PNG" class="card-img-top img-thumbnail" alt="...">
   <div class="card-body">
     <h5 class="card-title">QfshatMhnds</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -348,8 +354,8 @@
   </div>
 </div>
 <!-- ------------- -->
-<div class="card hvr-reveal" style="width: 18rem;">
-  <img src="img/02.PNG" class="card-img-top" alt="...">
+<div class="card hvr-reveal p-1 col-10 col-md-3">
+  <img src="img/02.PNG" class="card-img-top img-thumbnail" alt="...">
   <div class="card-body">
     <h5 class="card-title">English Store</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -357,8 +363,8 @@
   </div>
 </div>
 <!-- ------------- -->
-<div class="card hvr-reveal" style="width: 18rem;">
-  <img src="img/03.PNG" class="card-img-top" alt="...">
+<div class="card hvr-reveal p-1 col-10 col-md-3" >
+  <img src="img/03.PNG" class="card-img-top img-thumbnail" alt="...">
   <div class="card-body">
     <h5 class="card-title">Js vs JQuery</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -372,9 +378,7 @@
   </div>
 
 </section>
-
 <!-- -----------------------finish website--- -->
-
 <!-- -----------------footer***** -->
 <section id="footer">
   <div class="container">

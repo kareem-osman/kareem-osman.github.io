@@ -1,4 +1,27 @@
+@media  screen and (max-width:767px){
+    html{font-size: 12px;}
+    .container{width: 100%;}
+    #education #cont h2{font-size: 25px;}
+    #header .overlay .data h2 {margin-top: 10px !important;font-size: 22px;}
+    #header .overlay .data h5 {margin: 10px 0 !important;font-size: 15px;}
+    #header  .empty{height: 30px !important;}
+    #header #main_title{margin: 20px auto !important;}
+    #footer h5{font-size: 20px;}
+    #scn_title h1{font-size: 32px ;}
+    #scn2_title h1{font-size: 28px ;}
+    #experience .resume-list {margin-left: 35px !important;}
+    }
+
 @media  screen and (max-width:400px){
-html{font-size: 10px;}
+html{font-size: 7px;}
 .container{width: 100%;}
+#education #cont h2{font-size: 17px;}
+#header .overlay .data h2 {margin-top: 10px !important;font-size: 22px;}
+#header .overlay .data h5 {margin: 10px 0 !important;font-size: 15px;}
+#header  .empty{height: 30px !important;}
+#header #main_title{margin: 20px auto !important;}
+#footer h5{font-size: 15px;}
+#scn_title h1{font-size: 32px ;}
+#scn2_title h1{font-size: 28px ;}
+#experience .resume-list {margin-left: 35px !important;}
 }

@@ -151,7 +151,7 @@ a {
 /* ---//----header------------------------------- */
 /* -------courses------------------------------- */
 #courses .card {
-  margin: 10px 0;
+  margin: 10px;
 }
 
 /* ---/////----courses------------------------------- */
@@ -226,7 +226,7 @@ a {
 
 #social_m {
   position: fixed;
-  top: 100px;
+  top: 90px;
   right: 100px;
   width: 160px;
   border: #f0530e 1px solid;

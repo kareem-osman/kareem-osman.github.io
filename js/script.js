@@ -80,4 +80,17 @@ $("#social_m").mouseleave(function(){
     )
 })
 
+$("#courses #nav a").click(function(nl){
+    console.log($(nl.target).attr("cat"))
+    console.log(nl.target)
+    $("#courses .card").css("display","block")
+
+let cat_v ='.card[cat!="'+$(nl.target).attr("cat")+'"]'
+if($(nl.target).attr("cat")!=="all")
+{
+$("#courses "+ cat_v).css("display","none")
+}
+
+})
+
 })
