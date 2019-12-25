@@ -2,8 +2,8 @@
     html{font-size: 12px;}
     .container{width: 100%;}
     #education #cont h2{font-size: 25px;}
-    #header {height: 87vh !important;}
-    #header .overlay #contact{top: 202px !important;}
+    #header {height: 470px !important;}
+    #header .overlay #contact{top: 120px !important;}
     #header .overlay .data h2 {margin-top: 10px !important;font-size: 22px;}
     #header .overlay .data h5 {margin: 10px 0 !important;font-size: 15px;}
     #header  .empty{height: 40px !important;}
@@ -12,6 +12,7 @@
     #scn_title h1{font-size: 32px ;}
     #scn2_title h1{font-size: 28px ;}
     #experience .resume-list {margin-left: 35px !important;}
+    #to_up a{bottom: 38px !important;}
     #social_m 
     {
         right: 10px !important;
@@ -39,6 +40,7 @@ html{font-size: 7px;}
 #scn_title h1{font-size: 32px ;}
 #scn2_title h1{font-size: 28px ;}
 #experience .resume-list {margin-left: 35px !important;}
+#to_up a{bottom: 83px !important;}
 #social_m 
 {
     right: 10px !important;

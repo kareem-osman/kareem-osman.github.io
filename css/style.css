@@ -65,7 +65,9 @@ a {
 #header .overlay #contact {
   position: fixed;
   color: #fff;
-  background-color: #7a2404;
+  background: #371201;
+  background: -webkit-gradient(linear, left top, right top, from(#371201), to(#f0530e));
+  background: linear-gradient(90deg, #371201 0%, #f0530e 100%);
   width: 300px;
   top: 289px;
   left: -300px;
@@ -165,7 +167,7 @@ a {
 }
 
 #education {
-  background-color: rgba(211, 242, 243, 0.466);
+  background-color: #f4f4f4;
   padding: 20px 0;
 }
 
@@ -183,7 +185,7 @@ a {
 }
 
 #experience {
-  background-color: rgba(211, 242, 243, 0.466);
+  background-color: #f4f4f4;
   padding: 20px 0;
 }
 
@@ -197,7 +199,9 @@ a {
 }
 
 #footer {
-  background-color: #f0530e;
+  background: #371201;
+  background: -webkit-gradient(linear, left top, right top, from(#371201), to(#f0530e));
+  background: linear-gradient(90deg, #371201 0%, #f0530e 100%);
   padding: 5px 0;
 }
 
