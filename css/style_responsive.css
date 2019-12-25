@@ -2,28 +2,51 @@
     html{font-size: 12px;}
     .container{width: 100%;}
     #education #cont h2{font-size: 25px;}
+    #header {height: 87vh !important;}
+    #header .overlay #contact{top: 202px !important;}
     #header .overlay .data h2 {margin-top: 10px !important;font-size: 22px;}
     #header .overlay .data h5 {margin: 10px 0 !important;font-size: 15px;}
-    #header  .empty{height: 30px !important;}
+    #header  .empty{height: 40px !important;}
     #header #main_title{margin: 20px auto !important;}
     #footer h5{font-size: 20px;}
     #scn_title h1{font-size: 32px ;}
     #scn2_title h1{font-size: 28px ;}
     #experience .resume-list {margin-left: 35px !important;}
+    #social_m 
+    {
+        right: 10px !important;
+        width: 58px !important;
+        border-top: #f0530e 20px solid !important;
+    }
+    #social_m .social 
+    {
+        font-size: 2.5rem !important;
+    }
     }
 
-@media  screen and (max-width:400px){
+@media  screen and (max-width:450px){
 html{font-size: 7px;}
 .container{width: 100%;}
-#header .overlay #main_title h1{font-size: 30px !important;}
+#header {height: 82vh !important;}
 #header  .empty{height: 60px !important;}
-#header {height: 88vh !important;}
+#header .overlay #contact{top: 214px !important;}
+#header .overlay #main_title h1{font-size: 30px !important;}
 #header #main_title{margin: 20px auto !important;}
-#education #cont h2{font-size: 17px;}
 #header .overlay .data h2 {margin-top: 10px !important;font-size: 17px;}
 #header .overlay .data h5 {margin: 10px 0 !important;font-size: 15px;}
+#education #cont h2{font-size: 17px;}
 #footer h5{font-size: 15px;}
 #scn_title h1{font-size: 32px ;}
 #scn2_title h1{font-size: 28px ;}
 #experience .resume-list {margin-left: 35px !important;}
+#social_m 
+{
+    right: 10px !important;
+    width: 50px !important;
+    border-top: #f0530e 15px solid !important;
+}
+#social_m .social 
+{
+    font-size: 2rem !important;
+}
 }
