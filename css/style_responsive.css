@@ -27,10 +27,10 @@
 @media  screen and (max-width:450px){
 html{font-size: 7px;}
 .container{width: 100%;}
-#header {height: 82vh !important;}
+#header {height: 440px !important;}
 #header  .empty{height: 60px !important;}
 #header .overlay #contact{top: 214px !important;}
-#header .overlay #main_title h1{font-size: 30px !important;}
+#header .overlay #main_title h1{font-size: 27px !important;}
 #header #main_title{margin: 20px auto !important;}
 #header .overlay .data h2 {margin-top: 10px !important;font-size: 17px;}
 #header .overlay .data h5 {margin: 10px 0 !important;font-size: 15px;}
