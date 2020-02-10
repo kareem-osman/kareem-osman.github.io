@@ -35,7 +35,9 @@ a {
 /* -------main------------------------------- */
 /* ------ -navbar------------------------------- */
 #nav .navbar {
-  background-color: rgba(211, 58, 2, 0.87);
+  background: #371201;
+  background: -webkit-gradient(linear, left top, right top, from(#371201), to(rgba(240, 83, 14, 0.8)));
+  background: linear-gradient(90deg, #371201 0%, rgba(240, 83, 14, 0.8) 100%);
 }
 
 #nav .navbar #nav-title {
@@ -119,6 +121,11 @@ a {
 #header .overlay .data h5 {
   color: #bebcbc;
   margin: 20px 0 10px 0;
+}
+
+#header .overlay .data .download a {
+  color: #000;
+  text-decoration: none;
 }
 
 #header .overlay .box-img img {

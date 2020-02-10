@@ -21,7 +21,8 @@ a{text-decoration: none;}
 {
     .navbar
     {
-        background-color: rgba(211, 58, 2, 0.87);
+        background: rgb(55,18,.8);
+        background: linear-gradient(90deg, rgba(55,18,1,1) 0%, rgba(240,83,14,.8) 100%);
         #nav-title
         {
             color: #fff;
@@ -114,6 +115,14 @@ background-position: center center;
             {
                 color:rgb(190, 188, 188);
                 margin: 20px 0 10px 0;
+            }
+            .download
+            {
+                a
+                {
+                    color: #000;
+                    text-decoration: none;
+                }
             }
            
         }
